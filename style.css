@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.topo {
+  height: 170px;
+  width: 100%;
+  background-color: #fffff;
+}
+.topo1{
+  width: 1350px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 33px;
+  height: 33px;
+}
+
+.logo h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36.34px;
+  color: #C92071;
+  padding-left: 8px;
+}
+
+.seach {
+  width: 603.72px;
+  height: 64.8px;
+  display: flex;
+  align-items: center;
+}
+
+.seach form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 1px 1px 6px #0000001c;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8.64px;
+  background-color: #f5f1f175;
+  
+}
+
+.seach input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.seach form:hover {
+    background-color: #eeeeee75;
+     outline: 1px solid #C92071;
+}
+
+.seach form:focus-visible {
+    outline: 1px solid #C92071;
+}
+
+.seach placeholder {
+  color: #666666;
+  width: 179px;
+  height: 31px;
+  font-weight: 400;  
+}
+
+.cadastro {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cadastro a, .cadastro a:visited {
+  font-size: 17.28px;
+  font-weight: 400px;
+  color: #474747;
+  padding-left: 0.5rem;
+}
+
+.cadastro a:hover {
+  color: #807d7d;
+}
+
+.cadastro button {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #C92071;
+  border-radius: 8px;
+  height: 43.2px;
+  width: 123.1px;
+  border: none;
+  cursor: pointer;
+}
+
+.cadastro button a, .cadastro button a:visited {
+  color: #F5F5F5;
+  text-decoration: none;  
+}
+
+.cadastro button:hover {
+  background-color: #ee3a91;
+}
+
+.carrinho {
+  text-decoration: none;
+  position: relative;
+}
+
+.img1 {
+  width: 25px.;
+  height: 20px;
+}
+
+.img2 {
+ 
+  border-radius: 8px;
+  background-color: #EE4266;
+  position: relative;
+  left: -11px;
+  top: -9px;   
+} 
+
+.menu {
+  width: 1350px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.menu ul {
+  width: 500px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li a, .menu li a:visited {
+  text-decoration: none;
+  color: #474747;;
+  font-size: 17.28px;
+  font-weight: 700;
+}
+
+
+.menu li a:hover {
+  color: #EE4266;
+  text-decoration: underline;
+}
+
+.banner {
+  background-image: url(imgs/fundo2.jpg);
+  width: 1350px;
+  height: 681px;
+  display: flex; 
+}
+
+.conteudo {
+  width: 500px;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-left:15px;
+}
+.conteudo span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #F6AA1C;
+}
+
+.conteudo h1 {
+  font-size: 55px;
+  font-weight: 800;
+  color: #1F1F1F;
+}
+
+.conteudo p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #474747;
+}
+
+.conteudo a, .conteudo a:visited {
+  width: 220px;
+  height: 48px;
+  text-decoration: none;
+  background-color: #C92071;
+  border-radius: 8px;  
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo button {
+  background-color: #C92071;
+  border: none;
+  color: #F5F5F5;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.conteudo button:hover {
+  color: #dad8d8;
+}
+
+.sapato img {
+  width: 800px;
+  height: 500px;
+  transform: rotate(-6deg);
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.banner .assessorio {
+  position: relative;
+  left: -80px;
+  top: 25px;
+}
