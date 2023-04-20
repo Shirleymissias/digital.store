@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  
 }
 
 .topo {
@@ -178,7 +179,7 @@
 .banner {
   background-image: url(imgs/fundo2.jpg);
   width: 1350px;
-  height: 681px;
+  height: 500px;
   display: flex; 
 }
 
@@ -244,4 +245,190 @@
   position: relative;
   left: -80px;
   top: 25px;
+}
+
+.background {
+  background: #E5E5E5;
+}
+
+
+.prodDestaqueTitle {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 6px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: #474747;
+}
+
+.produto-destaque1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.cardDestaque {
+  width: 410px;
+  height: 250px;
+  display: flex;  
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #D8E3F2;
+}
+
+.cardImg {
+  width: 180px;
+  height: 200px;
+}
+
+.cardDestaqueLateral1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 15px;
+}
+
+.cardOferta {
+ width: 100px; 
+ background: #E7FF86;
+ color: dark-gray-2;
+ border-radius: 14px;
+ text-align: center;
+ font-size: 14px;
+ font-weight: 700;
+ padding: 8px;
+}
+
+.cardTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1F1F1F;
+}
+
+.btnComprar {
+  background: #F5F5F5;
+  color: #C92071;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+
+.cardDestaqueLateral2 {
+  display: flex;
+  align-items: end;
+}
+
+.titleCar2 {
+   font-size: 24px;
+   font-weight: 700;
+   color: #474747;
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 45px;
+}
+
+.produto-destaque2 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.subcard {
+  padding: 25px;
+  cursor: pointer;
+} 
+
+.subTitle {
+  text-align: center;
+  padding-top: 10px;
+  color: #474747;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 2px solid transparent;
+  transition: 0.4px;
+}
+
+.subCardImg:hover {
+  background-color: #ffffff;
+  border-radius: 35px;
+  padding: 11px;
+}
+
+.prodEmAltaInicio {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 80px;
+  margin-bottom: 10px; 
+  
+}
+
+.prodEmAltaTitle {
+  color: #474747;
+  font-size: 24px;
+  font-weight: 700;
+  color: #474747;
+}
+
+.prodVerTodos {
+  background-image: url(imgs/Line.png);
+  background-repeat: no-repeat;
+  background-position:  right;
+  padding: 23px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #C92071;
+  cursor: pointer;
+}
+
+.prodEmAlta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px; 
+  gap: 20px;
+}
+
+.blocoEmAlta {
+  width: 250px;  
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.prodEmAltaImg {
+  background: white ;
+  width: 210px;
+  box-shadow: 3px 4px 5px #696262;
+  border-radius: 6px;
+}
+
+.miniTitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8F8F8F;
+  padding: 6px 0;
+}
+
+.descricaoText {
+  color: #474747;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+
+.valorCheio {
+  color: #8F8F8F;
+  text-decoration: line-through;
+  font-size: 18px;
+}
+
+.valorDesconto {
+  font-size: 18px;
+  font-weight: 700;
 }
