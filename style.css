@@ -13,6 +13,7 @@
   width: 100%;
   background-color: #fffff;
 }
+
 .topo1{
   width: 1350px;
   height: 80px;
@@ -178,9 +179,11 @@
 
 .banner {
   background-image: url(imgs/fundo2.jpg);
-  width: 1350px;
+  width: 100%;
   height: 500px;
   display: flex; 
+  justify-content: center;  
+  padding-right: 30px;
 }
 
 .conteudo {
@@ -234,7 +237,7 @@
 }
 
 .sapato img {
-  width: 800px;
+  width: 700px;
   height: 500px;
   transform: rotate(-6deg);
   margin-left: 0;
@@ -255,8 +258,8 @@
 .prodDestaqueTitle {
   font-size: 24px;
   font-weight: 700;
-  padding: 6px;
-  margin-top: 60px;
+  padding-top: 30px;
+  padding-left: 30px;  
   margin-bottom: 40px;
   color: #474747;
 }
@@ -305,6 +308,7 @@
   font-size: 32px;
   font-weight: 700;
   color: #1F1F1F;
+  
 }
 
 .btnComprar {
@@ -315,8 +319,14 @@
   padding: 12px;
   border-radius: 11px;
   cursor: pointer;
+  transition: 0.5;
+  border: 1px solid transparent;
 }
 
+.btnComprar:hover {
+  background-color: #C92071;
+  color: white;
+}
 
 .cardDestaqueLateral2 {
   display: flex;
@@ -364,16 +374,15 @@
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  margin-top: 80px;
-  margin-bottom: 10px; 
-  
+  margin-top: 80px; 
 }
 
 .prodEmAltaTitle {
   color: #474747;
   font-size: 24px;
   font-weight: 700;
-  color: #474747;
+  color: #474747; 
+  padding-left: 10px;
 }
 
 .prodVerTodos {
@@ -381,16 +390,23 @@
   background-repeat: no-repeat;
   background-position:  right;
   padding: 23px;
+  margin-right: 150px;
   font-size: 18px;
   font-weight: 600;
   color: #C92071;
   cursor: pointer;
+  transition: 0.5px;
+}
+
+.prodVerTodos:hover {
+  background-color: white;
+  border-radius: 10px;
 }
 
 .prodEmAlta {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 20px; 
+  margin-left: 110px;
   gap: 20px;
 }
 
@@ -431,4 +447,127 @@
 .valorDesconto {
   font-size: 18px;
   font-weight: 700;
+}
+.ofertaEspecial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  width: 100%;
+  height: 500px;
+}
+
+.cardOfertaEpecial1 {
+  background-image: linear-gradient(to bottom, rgb(159, 135, 224), transparent 80%);
+  border-radius: 50px;
+  height: 320px;
+  
+}
+
+.cardOfertaEpecial2 {
+  width: 470px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.imgOfertaespecal {
+  width: 400px;
+}
+
+.mintitleOfertaEspecial {
+  color: #C92071;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.titleOfertaEspecial {
+  font-size: 48px;
+  font-weight: 700;
+  color: #474747;
+}
+
+.descricaoOfetaEspecial {
+  font-size: 16px;
+  columns: #474747;
+  padding: 6px;
+}
+
+.btnOfertaespecial {
+  background-color: #C92071;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  width: 170px;
+  cursor: pointer;
+}
+
+.btnOfertaespecial:hover {
+  background-color: white;
+  color: #C92071;
+  border: 2px solid #C92071;
+}
+
+.seccaofooter {
+  background-color: #1F1F1F;
+  color: white;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+}
+
+.sobreEmpresa {
+  width: 450px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.logoFooter {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.redesSociaisFooter {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.informaçõesFooter {
+  width: 200px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.footerTitle { 
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contatoFooter {
+  width: 200px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footerText {
+  cursor: pointer;
 }
