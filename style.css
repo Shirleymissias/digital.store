@@ -424,6 +424,15 @@
   border-radius: 6px;
 }
 
+.prodEmAltaImg:hover {
+  background-color: #C92071;
+  /*-moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  rotate: ;*/
+  scale: 1 -1;
+}
+
 .miniTitle {
   font-size: 12px;
   font-weight: 700;
@@ -521,8 +530,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
-  
 }
 
 .sobreEmpresa {
@@ -531,7 +538,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
 }
 
 .logoFooter {
@@ -570,4 +576,29 @@
 
 .footerText {
   cursor: pointer;
+}
+
+.sobreEmpresaInts {
+  width: 22.11px;
+  height: 22.11px;
+  border-radius: 50px;
+}
+
+.footerLegenda {
+  border-top: 1px solid white;
+  background-color: #1F1F1F;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+{
+ width: 100px; 
+ background: #E7FF86;
+ color: dark-gray-2;
+ border-radius: 14px;
+ text-align: center;
+ font-size: 14px;
+ font-weight: 700;
+ padding: 8px;
 }
