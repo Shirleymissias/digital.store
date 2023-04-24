@@ -409,11 +409,12 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 50px;
+  gap: 30px;
 }
 
 
 .blocoEmAlta {
-  width: 320px;  
+  width: 300px;  
   padding: 10px;
   cursor: pointer;
 }
