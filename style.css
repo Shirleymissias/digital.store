@@ -131,8 +131,7 @@
 }
 
 .carrinho {
-  text-decoration: none;
-  position: relative;
+ text-decoration: none;
 }
 
 .img1 {
@@ -302,6 +301,7 @@
  font-size: 14px;
  font-weight: 700;
  padding: 8px;
+ cursor: pointer;
 }
 
 .cardTitle {
@@ -369,6 +369,7 @@
   padding: 11px;
 }
 
+
 .prodEmAltaInicio {
   width: 100%;
   display: flex;
@@ -404,14 +405,15 @@
 }
 
 .prodEmAlta {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-left: 110px;
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
 }
 
+
 .blocoEmAlta {
-  width: 250px;  
+  width: 320px;  
   padding: 10px;
   cursor: pointer;
 }
@@ -426,10 +428,6 @@
 
 .prodEmAltaImg:hover {
   background-color: #C92071;
-  /*-moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  rotate: ;*/
   scale: 1 -1;
 }
 
@@ -547,18 +545,16 @@
 }
 
 .redesSociaisFooter {
+  height: 100px;
   display: flex;
-  gap: 30px;
-  cursor: pointer;
+  gap: 20px; 
 }
 
 .informaçõesFooter {
-  width: 200px;
+  width: 300px;
   height: 320px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  
+  justify-content: space-between;  
 }
 
 .footerTitle { 
@@ -569,20 +565,18 @@
 .contatoFooter {
   width: 200px;
   height: 320px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+.contatoFooter p {
+  padding-top: 15px;
 }
 
 .footerText {
   cursor: pointer;
+  padding-top: 20px;
 }
 
-.sobreEmpresaInts {
-  width: 22.11px;
-  height: 22.11px;
-  border-radius: 50px;
-}
 
 .footerLegenda {
   border-top: 1px solid white;
@@ -592,13 +586,3 @@
   padding: 12px;
 }
 
-{
- width: 100px; 
- background: #E7FF86;
- color: dark-gray-2;
- border-radius: 14px;
- text-align: center;
- font-size: 14px;
- font-weight: 700;
- padding: 8px;
-}
